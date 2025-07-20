@@ -1,0 +1,17 @@
+{
+	"name": "AzureSQL_Linked",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sanchinew29.database.windows.net",
+			"database": "SANCHI29DB",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVDQjdENDQzLUVEQzUtNEQ3Ri04Q0IyLTQ0ODZDQ0M4MDIzM183YjIwZmUwYy01M2FhLTRlZWItYmJhOS0zODFiNjliNWMwMjAiDQp9"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Datafactoryweek7",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6199c136-6b35-4791-9a15-f337ae3d3cba",
+		"tenantId": "27282fdd-4c0b-4dfb-ba91-228cd83fdf71"
+	}
+}

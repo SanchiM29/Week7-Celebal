@@ -1,0 +1,17 @@
+{
+	"name": "master_child",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQL_Linked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "master_child"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

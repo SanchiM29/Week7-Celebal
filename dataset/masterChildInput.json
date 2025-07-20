@@ -1,0 +1,37 @@
+{
+	"name": "masterChildInput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Linked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "master_child_export-20191112.csv",
+				"fileSystem": "sanchicontainer7"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ChildID",
+				"type": "String"
+			},
+			{
+				"name": "ParentID",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
